@@ -1,0 +1,15 @@
+.displayCard{
+
+    display: flex;
+}
+
+.column{
+    margin: 0px 30px 0px;
+}
+.align{
+    text-align: left;
+    margin-left:20px;
+}
+.width1{
+    width: 350px;
+}
