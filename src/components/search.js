@@ -39,7 +39,7 @@ const Search = () => {
     setSearch(_key);
     ApiCall(_key)
   }
-  if (news.length === 0 && search.trim() === "" && error) callDefault();
+  if (news.length === 0 ) callDefault();
   return (
     <div>
       <div className="column is-half is-offset-one-quarter ">
@@ -73,3 +73,4 @@ const Search = () => {
 };
 
 export default Search;
+
